@@ -19,4 +19,9 @@ public class ContaCorrente extends Conta {
         return super.deposito(valor - TAXA_DEPOSITO);
     }
 
+    @Override
+    public String toString() {
+        return "CC: " + super.toString();
+    }
+
 }

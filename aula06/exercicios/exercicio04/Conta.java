@@ -28,6 +28,14 @@ public abstract class Conta {
         return numConta + " : " + saldo;
     }
 
+    public int getNumber() {
+        return numConta;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
     /*
      * public Conta(int numConta, double saldo) { this.numConta = numConta;
      * this.saldo = saldo; }
@@ -44,7 +52,4 @@ public abstract class Conta {
      * - valorSaque); }
      */
 
-    public double getSaldo() {
-        return saldo;
-    }
 }
