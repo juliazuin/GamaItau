@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class AppConta {
     public static void main(String[] args) {
         Scanner tec = new Scanner(System.in);
-        int opcao;
-        int numConta;
+        int opcao,numConta;
         double limite, valor;
 
         GerenciaContas contas = new GerenciaContas();
