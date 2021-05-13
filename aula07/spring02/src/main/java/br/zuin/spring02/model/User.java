@@ -28,6 +28,12 @@ public class User {
     @Column(name = "senha", length = 30, nullable = false)
     private String senha;
 
+    public User(){}
+    public User(String nome, String email){
+        this.nome = nome;
+        this.email = email;
+    }
+
     public int getId() {
         return id;
     }
